@@ -2,49 +2,60 @@
   BBBot
 </h1>
 
-<h3 align="center">
+<h4 align="center">
     Um bot pra votar em alguém na plataforma do GSHOW
-</h3>
+</h4>
 
-# Disclaimer: NÃO TEMOS NENHUM CANDIDATO PREFERIDO, ESSE CÓDIGO FOI FEITO APENAS PARA ESTUDOS!!! SINTAM-SE LIVRES PARA UTILIZAR
+### Disclaimer: ESSE CÓDIGO FOI FEITO APENAS PARA ESTUDOS, SINTAM-SE LIVRES PARA UTILIZAR
 
-## Como instalar e iniciar o bot?
+> O bot n será atualizado por paradão
 
-### 1. Baixe o node em: https://nodejs.org/en/download/
+## Como instalar e iniciar o bot? 
 
-### 2. Baixe o bot em: https://github.com/DanielHe4rt/bbbot/archive/master.zip
+### Primeira forma:
 
-### 3. Entre na pasta do BOT e clique em `install.bat`;
+> 1. Baixe o node em: https://nodejs.org/en/download/ ou atraves do git
 
-### 4. Execute `run-server.bat` e preencha os dados de acesso da globo (e-mail e senha).
+> 2. Baixe o bot em: https://github.com/DanielHe4rt/bbbot/archive/master.zip
 
-### 5. Caso seu usuário pare no login, use o `run-server-login.bat` para resolver o problema.
+> 3. Entre na pasta do BOT e clique em `install.bat`;
 
-## :rocket: 5 minutes quick start
+> 4. Execute `run-server.bat` e preencha os dados de acesso da globo (e-mail e senha).
 
-:bulb: Install all packages of the `package.json` on your Node project. This will download everything you need.
+### Segunda forma:
 
+> 1. Vai instalar todo os pacotes que estão no `package.json` para seu Node project. Basta acessar a pasta e executar o comando:
 ```
 npm install
 ```
-
-<br>
-
-## :computer: Running the server
-
-:bulb: After all the dependencies have been installed, you can run the server on the Windows running the file <strong>run-server.bat</strong>. But if you are a Linux user. just type the following command:
+> 2. Depois de instalado, basta acessar a pasta src e roda
 
 ```
-node index.js
+node index.js <canditado> <email do gshow> <senha do gshow>
 ```
 
-<br>
+### Terceira forma:
+
+> 1. Acesse o site da [Chocolatey] (https://chocolatey.org/install) e siga as instruções de instalação
+> 2. Instale o Node e o Yarn
+```
+choco install nodejs
+choco install yarn
+```
+> 3. Acesse a pasta src dentro da pasta principal do bot
+> 4. Shift + Botão direito do mouse e abrir com PowerShell (o prompt do seu sistema)
+> 5. Use o comando
+```
+node index.js <canditado> <email do gshow> <senha do gshow>
+```
 
 ## :v: Contribuidores
 
 [danielhe4rt](https://twitter.com/danielhe4rt)
 
 [TheEduardoRFS](https://twitter.com/theeduardorfs)
+
+[BispoDev](https://twitter.com/jgbisp0)
 
 ## :mailbox_with_mail: License
 
